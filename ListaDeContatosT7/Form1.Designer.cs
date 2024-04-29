@@ -41,7 +41,7 @@
             // 
             // textBoxNome
             // 
-            this.textBoxNome.Font = new System.Drawing.Font("Perpetua Titling MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNome.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNome.Location = new System.Drawing.Point(147, 31);
             this.textBoxNome.Multiline = true;
             this.textBoxNome.Name = "textBoxNome";
@@ -51,7 +51,7 @@
             // 
             // textBoxSobrenome
             // 
-            this.textBoxSobrenome.Font = new System.Drawing.Font("Perpetua Titling MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSobrenome.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxSobrenome.Location = new System.Drawing.Point(147, 97);
             this.textBoxSobrenome.Multiline = true;
             this.textBoxSobrenome.Name = "textBoxSobrenome";
@@ -60,7 +60,7 @@
             // 
             // textBoxTelefone
             // 
-            this.textBoxTelefone.Font = new System.Drawing.Font("Perpetua Titling MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTelefone.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxTelefone.Location = new System.Drawing.Point(147, 163);
             this.textBoxTelefone.Multiline = true;
             this.textBoxTelefone.Name = "textBoxTelefone";
@@ -140,7 +140,8 @@
             this.Controls.Add(this.textBoxSobrenome);
             this.Controls.Add(this.textBoxNome);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Lista de Contatos";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
