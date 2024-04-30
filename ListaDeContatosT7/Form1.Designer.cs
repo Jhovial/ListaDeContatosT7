@@ -37,6 +37,7 @@
             this.labelTelefone = new System.Windows.Forms.Label();
             this.labelListaDeContatos = new System.Windows.Forms.Label();
             this.listBoxLista = new System.Windows.Forms.ListBox();
+            this.buttonOrganizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBoxNome
@@ -70,9 +71,9 @@
             // buttonEnvio
             // 
             this.buttonEnvio.Font = new System.Drawing.Font("MV Boli", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEnvio.Location = new System.Drawing.Point(60, 350);
+            this.buttonEnvio.Location = new System.Drawing.Point(17, 350);
             this.buttonEnvio.Name = "buttonEnvio";
-            this.buttonEnvio.Size = new System.Drawing.Size(282, 75);
+            this.buttonEnvio.Size = new System.Drawing.Size(154, 75);
             this.buttonEnvio.TabIndex = 7;
             this.buttonEnvio.Text = "Enviar";
             this.buttonEnvio.UseVisualStyleBackColor = true;
@@ -125,11 +126,23 @@
             this.listBoxLista.Size = new System.Drawing.Size(241, 394);
             this.listBoxLista.TabIndex = 12;
             // 
+            // buttonOrganizar
+            // 
+            this.buttonOrganizar.Font = new System.Drawing.Font("MV Boli", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonOrganizar.Location = new System.Drawing.Point(188, 350);
+            this.buttonOrganizar.Name = "buttonOrganizar";
+            this.buttonOrganizar.Size = new System.Drawing.Size(154, 75);
+            this.buttonOrganizar.TabIndex = 13;
+            this.buttonOrganizar.Text = "Organizar";
+            this.buttonOrganizar.UseVisualStyleBackColor = true;
+            this.buttonOrganizar.Click += new System.EventHandler(this.buttonOrganizar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(619, 450);
+            this.Controls.Add(this.buttonOrganizar);
             this.Controls.Add(this.listBoxLista);
             this.Controls.Add(this.labelListaDeContatos);
             this.Controls.Add(this.labelTelefone);
@@ -158,6 +171,7 @@
         private System.Windows.Forms.Label labelTelefone;
         private System.Windows.Forms.Label labelListaDeContatos;
         private System.Windows.Forms.ListBox listBoxLista;
+        private System.Windows.Forms.Button buttonOrganizar;
     }
 }
 
